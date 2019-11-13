@@ -1,4 +1,4 @@
-package org.dynamic.codecoverage;
+package com.dynamic.codecoverage;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
