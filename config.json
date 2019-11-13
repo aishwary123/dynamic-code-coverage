@@ -1,0 +1,69 @@
+{
+  "serviceObjectList": [
+    {
+      "product": "abc",
+      "type": "JACOCO",
+      "serviceName": "abc-service",
+      "jobName": "https://abc/job/abc-service-code-coverage-unit-tests",
+      "testType": "UNIT",
+      "codeCoverageType": "TOTAL",
+      "lastReportedBuildNumber": 0,
+      "changeBuildStatus": true,
+      "failBuildOnCoverageFail": true,
+      "thresholds": {
+        "lineCoverageGatingMetrics": {
+          "enabled": true,
+          "minimumCoveragePercentageDefault": 80,
+          "maximumCoveragePercentageDefault": 80,
+          "minimumCoveragePercentageDynamic": 0,
+          "maximumCoveragePercentageDynamic": 0
+        },
+        "branchCoverageGatingMetrics": {
+          "enabled": false,
+          "minimumCoveragePercentageDefault": 0,
+          "maximumCoveragePercentageDefault": 0,
+          "minimumCoveragePercentageDynamic": 0,
+          "maximumCoveragePercentageDynamic": 0
+        },
+        "classCoverageGatingMetrics": {
+          "enabled": false,
+          "minimumCoveragePercentageDefault": 0,
+          "maximumCoveragePercentageDefault": 0,
+          "minimumCoveragePercentageDynamic": 0,
+          "maximumCoveragePercentageDynamic": 0
+        },
+        "methodCoverageGatingMetrics": {
+          "enabled": false,
+          "minimumCoveragePercentageDefault": 0,
+          "maximumCoveragePercentageDefault": 0,
+          "minimumCoveragePercentageDynamic": 0,
+          "maximumCoveragePercentageDynamic": 0
+        },
+        "instructionCoverageGatingMetrics": {
+          "enabled": false,
+          "minimumCoveragePercentageDefault": 0,
+          "maximumCoveragePercentageDefault": 0,
+          "minimumCoveragePercentageDynamic": 0,
+          "maximumCoveragePercentageDynamic": 0
+        },
+        "complexityCoverageGatingMetrics": {
+          "enabled": false,
+          "minimumCoveragePercentageDefault": 0,
+          "maximumCoveragePercentageDefault": 0,
+          "minimumCoveragePercentageDynamic": 0,
+          "maximumCoveragePercentageDynamic": 0
+        }
+      },
+      "patterns": {
+        "inclusionPattern": "",
+        "exclusionPattern": "",
+        "execPattern": "**/**.exec",
+        "classPattern": "**/classes",
+        "sourcePattern": "**/src/main/java",
+        "sourceInclusionPattern": "**/*.java",
+        "sourceExclusionPattern": ""
+      },
+      "dynamicGatingEnabled": false
+    }
+  ]
+}
